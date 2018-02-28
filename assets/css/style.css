@@ -1,0 +1,98 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+.pic {
+    position: fixed; 
+    bottom: 10px; 
+    right: 5px;
+    height: 200px;
+    width: 145px;
+    z-index: -1;
+}
+
+.bubble {
+    position: fixed; 
+    bottom: 180px; 
+    right: 20px;
+    height: 100px;
+    width: 150px;
+    z-index: -1;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("../images/waltograph/waltographUI.ttf");
+}
+
+body {
+    font-family: "myfont";
+    font-size: 15px;
+    background-color: #79e0e4;
+}
+
+#top {
+    margin-bottom: 15px;
+    margin-left: 105px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.topBTN{
+    margin: 8px;
+}
+
+label {
+    font-size: 50px;
+    background-color: red;
+    padding: 5px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#formDiv {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form {
+    background: url('../images/castle.jpg');
+    padding: 100px;
+    color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#submit {
+    font-size: 14px;
+    padding: 2.5px;
+    background-color: red;
+    margin-left: 5px;
+}
+
+#inputDiv {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#gif {
+    margin: 5px;
+}
+
+#results {
+    margin-bottom: 50px;
+}
+
+#gifdiv {
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    border: solid thin aliceblue;
+    text-align: center;
+}
