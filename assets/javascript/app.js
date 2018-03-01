@@ -72,7 +72,8 @@ $(document).ready(function () {
 
         // Calling renderButtons which handles the processing of our movie array
         renderButtons();
-        $("#disney-input").val("")
+        $("#disney-input").val("");
+        return false
     });
 
     $(".bubble").hide()
